@@ -1,3 +1,22 @@
+## cmake_modules - 0.2.1-0
+
+User `william@dosa` released the packages in the `cmake_modules` repository by running `/usr/local/bin/bloom-release -r groovy -t groovy cmake_modules` on `Fri, 24 Jan 2014 23:57:05 -0000`
+
+The `cmake_modules` package was released.
+
+Version of package(s) in repository `cmake_modules`:
+- rosdistro version: `0.2.0-0`
+- old version: `0.2.0-0`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+- bloom version: `0.4.7`
+- catkin_pkg version: `0.1.25`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.0`
+- vcstools version: `0.1.33`
+
+
 ## cmake_modules - 0.2.1-1
 
 User `william@dosa` released the packages in the `cmake_modules` repository by running `/usr/local/bin/bloom-release -r hydro -t hydro cmake_modules` on `Fri, 24 Jan 2014 23:55:24 -0000`
