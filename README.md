@@ -1,3 +1,24 @@
+## cmake_modules (indigo) - 0.3.2-0
+
+The packages in the `cmake_modules` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo cmake_modules` on `Mon, 27 Oct 2014 19:18:14 -0000`
+
+The `cmake_modules` package was released.
+
+Version of package(s) in repository `cmake_modules`:
+- upstream repository: https://github.com/ros/cmake_modules.git
+- release repository: https://github.com/ros-gbp/cmake_modules-release.git
+- rosdistro version: `0.3.1-0`
+- old version: `0.3.1-0`
+- new version: `0.3.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## cmake_modules (hydro) - 0.3.2-0
 
 The packages in the `cmake_modules` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release -r hydro -t hydro cmake_modules` on `Mon, 27 Oct 2014 19:15:25 -0000`
