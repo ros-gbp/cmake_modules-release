@@ -1,3 +1,24 @@
+## cmake_modules (jade) - 0.4.0-0
+
+The packages in the `cmake_modules` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade -n cmake_modules` on `Thu, 25 Dec 2014 09:13:57 -0000`
+
+The `cmake_modules` package was released.
+
+Version of package(s) in repository `cmake_modules`:
+- upstream repository: https://github.com/ros/cmake_modules.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.15`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## cmake_modules (hydro) - 0.3.3-0
 
 The packages in the `cmake_modules` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release -r hydro -t hydro cmake_modules` on `Wed, 24 Dec 2014 00:14:06 -0000`
