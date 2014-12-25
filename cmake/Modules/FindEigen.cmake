@@ -1,18 +1,23 @@
+#
+# NOTICE! This module is deprecated and the FindEigen3.cmake which is
+#         distributed with Eigen should now be used.
+#
+
 ###############################################################################
-# 
+#
 # CMake script for finding the Eigen library.
-# 
+#
 # http://eigen.tuxfamily.org/index.php?title=Main_Page
-# 
+#
 # Copyright (c) 2006, 2007 Montel Laurent, <montel@kde.org>
 # Copyright (c) 2008, 2009 Gael Guennebaud, <g.gael@free.fr>
 # Copyright (c) 2009 Benoit Jacob <jacob.benoit.1@gmail.com>
 # Redistribution and use is allowed according to the terms of the 2-clause BSD
 # license.
-# 
-# 
+#
+#
 # Input variables:
-# 
+#
 # - Eigen_ROOT_DIR (optional): When specified, header files and libraries
 #   will be searched for in `${Eigen_ROOT_DIR}/include` and
 #   `${Eigen_ROOT_DIR}/libs` respectively, and the default CMake search order
@@ -21,22 +26,22 @@
 #   If both are set, preference is given to the CMake variable.
 #   Use this variable for finding packages installed in a nonstandard location,
 #   or for enforcing that one of multiple package installations is picked up.
-# 
+#
 # Cache variables (not intended to be used in CMakeLists.txt files)
-# 
+#
 # - Eigen_INCLUDE_DIR: Absolute path to package headers.
-# 
-# 
+#
+#
 # Output variables:
-# 
+#
 # - Eigen_FOUND: Boolean that indicates if the package was found
 # - Eigen_INCLUDE_DIRS: Paths to the necessary header files
 # - Eigen_VERSION: Version of Eigen library found
 # - Eigen_DEFINITIONS: Definitions to be passed on behalf of eigen
-# 
-# 
+#
+#
 # Example usage:
-# 
+#
 #   # Passing the version means Eigen_FOUND will only be TRUE if a
 #   # version >= the provided version is found.
 #   find_package(Eigen 3.1.2)
@@ -47,13 +52,19 @@
 #   add_definitions(${Eigen_DEFINITIONS})
 #   ...
 #   include_directories(${Eigen_INCLUDE_DIRS} ...)
-# 
+#
 ###############################################################################
 
 find_package(PkgConfig)
 pkg_check_modules(PC_EIGEN eigen3)
 set(EIGEN_DEFINITIONS ${PC_EIGEN_CFLAGS_OTHER})
 
+message(WARNING
+  "The FindEigen.cmake Module in the cmake_modules package is deprecated.\n"
+  "Please use the FindEigen3.cmake Module provided with Eigen. "
+  "Change instances of find_package(Eigen) to find_package(Eigen3). "
+  "Check the FindEigen3.cmake Module for the resulting CMake variable names.\n"
+)
 
 find_path(EIGEN_INCLUDE_DIR Eigen/Core
     HINTS ${PC_EIGEN_INCLUDEDIR} ${PC_EIGEN_INCLUDE_DIRS}
