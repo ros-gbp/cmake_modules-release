@@ -1,3 +1,26 @@
+## cmake_modules (kinetic) - 0.4.0-0
+
+The packages in the `cmake_modules` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -r kinetic -t kinetic cmake_modules` on `Wed, 09 Mar 2016 19:05:01 -0000`
+
+The `cmake_modules` package was released.
+
+Version of package(s) in repository `cmake_modules`:
+
+- upstream repository: https://github.com/ros/cmake_modules.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.38`
+
+
 ## cmake_modules (jade) - 0.4.0-0
 
 The packages in the `cmake_modules` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade -n cmake_modules` on `Thu, 25 Dec 2014 09:13:57 -0000`
