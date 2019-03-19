@@ -1,3 +1,26 @@
+## cmake_modules (kinetic) - 0.4.2-0
+
+The packages in the `cmake_modules` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -r kinetic -t kinetic cmake_modules` on `Tue, 19 Mar 2019 22:53:05 -0000`
+
+The `cmake_modules` package was released.
+
+Version of package(s) in repository `cmake_modules`:
+
+- upstream repository: https://github.com/ros/cmake_modules.git
+- release repository: https://github.com/ros-gbp/cmake_modules-release.git
+- rosdistro version: `0.4.1-0`
+- old version: `0.4.1-0`
+- new version: `0.4.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## cmake_modules (melodic) - 0.4.1-0
 
 The packages in the `cmake_modules` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release -r melodic -t melodic cmake_modules` on `Tue, 30 Jan 2018 03:29:20 -0000`
