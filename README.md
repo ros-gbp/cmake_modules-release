@@ -1,3 +1,26 @@
+## cmake_modules (noetic) - 0.5.0-1
+
+The packages in the `cmake_modules` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release -r noetic -t noetic cmake_modules` on `Fri, 24 Jan 2020 00:00:19 -0000`
+
+The `cmake_modules` package was released.
+
+Version of package(s) in repository `cmake_modules`:
+
+- upstream repository: https://github.com/ros/cmake_modules.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.17.0`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## cmake_modules (melodic) - 0.4.2-0
 
 The packages in the `cmake_modules` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release -r melodic -t melodic cmake_modules` on `Tue, 19 Mar 2019 23:16:58 -0000`
